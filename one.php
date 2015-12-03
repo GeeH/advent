@@ -49,7 +49,6 @@ assert(decodeFloor('(') === 1);
 assert(decodeFloor(')') === -1);
 assert(processInput('((((((((()))))))))') === 0);
 assert(processInput('(((((((((') === 9);
-
 assert(processInput('((())))', -1) === 7);
 
 /**
